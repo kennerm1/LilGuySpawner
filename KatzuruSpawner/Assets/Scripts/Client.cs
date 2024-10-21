@@ -22,9 +22,9 @@ public class Client : MonoBehaviour
     public void CharButton()
     {
         e = environmentTypeOptions.value;
-        g = genderOptions.value - 1;
-        s = seasonOptions.value - 1;
-        t = tempOptions.value - 1;
+        g = genderOptions.value + 1;
+        s = seasonOptions.value + 1;
+        t = tempOptions.value + 1;
 
         CharRequirements requirements = new CharRequirements
         {
